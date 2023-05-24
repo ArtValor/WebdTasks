@@ -1,0 +1,315 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*MY CODE*/
+
+.rectangle1{
+    background-color: #656CEC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 13.3333vh;
+    line-height: 13.3333vh;
+    text-align: center;
+    color: #FFF;
+    font-size: 64px;
+}
+
+.line{
+    border: 0.13333333vh solid white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 0.13333333vh;
+}
+
+.rectangle2{
+    background-color: #656CEC;
+    width: 100%;
+    height: 31.333333333vh;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+}
+
+.circle-small-1{
+    height: 3.33333333vh;
+    width: 3.33333333vh;
+    position: relative;
+    border-radius: 50%;
+    background-color: #BABEFF;
+    top: 5.33333333vh;
+    left: 32.67973vw;
+    text-align: center;
+    line-height: 3.33333333vh;
+    color: white;
+    font-family: 'Inter',sans-serif;
+}
+
+.circle-small-2{
+    height: 3.33333333vh;
+    width: 3.33333333vh;
+    border-radius: 50%;
+    position: relative;
+    background-color: #BABEFF;
+    left: 46.875vw;
+    top: 0.933333333vh;
+    text-align: center;
+    line-height: 3.33333333vh;
+    color: white;
+    font-family: 'Inter',sans-serif;
+}
+
+.circle-small-3{
+    height: 3.33333333vh;
+    width: 3.33333333vh;
+    position: relative;
+    border-radius: 50%;
+    background-color: #BABEFF;
+    top: 5.33333333vh;
+    left: 61.19908vw;
+    text-align: center;
+    line-height: 3.33333333vh;
+    color: white;
+    font-family: 'Inter',sans-serif;
+}
+
+.circle-big-1{
+    height: 21.3333333vh;
+    width: 21.3333333vh;
+    position: relative;
+    top: 5.7333333333vh;
+    left: 39.32291666vw;
+    background-color: #BABEFF;
+    border-radius:50%;
+    box-shadow: 0 0 0 5px white;
+    background-size: 21.3333333vh;
+    background-position: center;
+}
+
+.circle-big-2{
+    height: 17.333333333vh;
+    width: 17.333333333vh;
+    position: relative;
+    top: 10vh;
+    left: 13.9971vw;
+    background-color: #BABEFF;
+    border-radius:50%;
+    box-shadow: 0 0 0 4px white;
+    background-size: 17.333333333vh;
+    background-position: center;
+    
+}
+
+.circle-big-3{
+    height: 17.333333333vh;
+    width: 17.333333333vh;
+    position: relative;
+    top: 10vh;
+    left: 37.4046vw;
+    background-color: #BABEFF;
+    border-radius:50%;
+    box-shadow: 0 0 0 4px white;
+    background-size: 17.333333333vh;
+    background-position: center;
+}
+
+.name-ellipse-1{
+    background-color: #BABEFF;
+    position: relative;
+    height: 2.666666vh;
+    width: 8vw;
+    border-radius: 16px;
+    top: 28.4vh;
+    right: 2.5vw;    
+    font-family: 'Inter',sans-serif;
+    font-size: 14px;
+    line-height: 2.666666666vh;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+.name-ellipse-2{
+    background-color: #BABEFF;
+    position: relative;
+    height: 2.666666vh;
+    width: 8vw;
+    border-radius: 16px;
+    top: 28.4vh;
+    left: 5.45vw;   
+    font-family: 'Inter',sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+.name-ellipse-3{
+    background-color: #BABEFF;
+    position: relative;
+    height: 2.666666vh;
+    width: 8vw;
+    border-radius: 16px;
+    top: 28.4vh;
+    left:13.32vw;
+    font-family: 'Inter',sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+.rectangle3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    background-color: #FFF;
+}
+
+.subrect{
+    width: 100%;
+    height: 69px;
+    margin-top: 10px;
+    background-color: #D2D4F2;
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    width: 87%;
+    display: flex;
+    height: 69px;
+    align-items: center;
+}
+
+.name{
+    position: relative;
+    left: 130px;
+}
+
+.avatar{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 0px;
+    left: 60px;
+    background-color: #BABEFF;
+    border-radius:50%;
+    box-shadow: 0 0 0 4px white;
+    background-size: 50px;
+    background-position: center;
+}
+
+.number{
+    position: relative;
+    left: 30px;
+}
+
+
+
